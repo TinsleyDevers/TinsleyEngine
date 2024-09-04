@@ -20,7 +20,8 @@
         "C:\\glfw-3.4.bin.WIN64\\lib-mingw-w64",
         "-lglfw3dll",
         "-lglew32",
-        "-lopengl32"
+        "-lopengl32",
+        "-mwindows"
       ],
       "options": {
         "cwd": "${fileDirname}"
