@@ -4,7 +4,7 @@
 // https://github.com/TinsleyDevers
 //////////////////////////////////////////////////////////////////////
 // First created on 2024.09.04
-// Last edited on 2024.09.04
+// Last edited on 2024.09.09
 //////////////////////////////////////////////////////////////////////
 
 #include <iostream>
@@ -43,6 +43,10 @@ int main()
     glViewport(0, 0, 800, 800);
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
     
+
+    // Main Loop
+    // Ref: https://en.wikipedia.org/wiki/Rotation_matrix
+    // Ref: https://en.wikipedia.org/wiki/Matrix_(mathematics)
     while(!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
